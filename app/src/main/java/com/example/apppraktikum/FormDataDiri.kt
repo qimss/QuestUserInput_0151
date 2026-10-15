@@ -9,4 +9,5 @@ import androidx.compose.ui.Modifier
 fun FormDataDiri(modifier: Modifier){
     var textNama by remember { mutableStateOf(value = ="")}
     var textAlamat by remember { mutableStateOf(value = ="")}
+    var textJK by remember { mutableStateOf(value = ="")}
 }
